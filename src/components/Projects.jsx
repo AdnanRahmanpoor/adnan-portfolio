@@ -54,7 +54,7 @@ function Projects() {
                 </h5>
               </a>
               <p className='mb-3 font-normal text-gray-700 dark:text-gray-400'>
-                A NextJS + TailwindCSS portfolio website to showcase information
+                A React + TailwindCSS and Framer Motion for page transition, portfolio website to showcase information
                 and projects.
               </p>
               <div className='flex flex-row mx-auto justify-between content-between pt-2'>
