@@ -1,6 +1,7 @@
 import { Typewriter, Cursor } from 'react-simple-typewriter';
 import Transition from './transition'
 import { Link } from 'react-router-dom';
+import heroImage from '../assets/mainIconsdark.svg'
 
 function Home() {
   const text = Typewriter({
@@ -61,7 +62,7 @@ function Home() {
         </div>
       </div>
       <div className='justify-center items-center pt-5 pb-10 my-auto mx-auto md:pr-40'>
-        <img src='./src/assets/mainIconsdark.svg' alt='' />
+        <img src={heroImage} alt='' />
       </div>
     </section>
   );
