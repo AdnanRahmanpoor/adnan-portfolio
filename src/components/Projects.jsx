@@ -1,5 +1,11 @@
 import { Link } from 'react-router-dom';
 import Transition from './transition';
+import adnanPortfolio from '../assets/Adnan-s-Portfolio.png'
+import adnanBlog from '../assets/AdnanRp.png'
+import CRE from '../assets/CRE-BT5.png'
+import weatherApp from '../assets/weather-app.png'
+import todoApp from '../assets/todo-app.png'
+import privFi from '../assets/privfi.png'
 
 function Projects() {
   return (
@@ -35,7 +41,7 @@ function Projects() {
             <a href='https://adnan-rahmanpoor.vercel.app' target='_blank'>
               <img
                 className='rounded-t-lg w-full h-52 object-fill'
-                src='./Adnan-s-Portfolio.png'
+                src={adnanPortfolio}
                 alt=''
                 width={240}
                 height={240}
@@ -98,7 +104,7 @@ function Projects() {
             <a href='https://adnanrp.pages.dev'>
               <img
                 className='rounded-t-lg w-full h-52 object-fill'
-                src='./src/assets/AdnanRp.png'
+                src={adnanBlog}
                 alt=''
                 width={240}
                 height={240}
@@ -158,7 +164,7 @@ function Projects() {
             <a href='https://github.com/AdnanRahmanpoor/crownrealestate-landing-bt5'>
               <img
                 className='rounded-t-lg w-full h-36 object-fill'
-                src='./src/assets/CRE-BT5.png'
+                src={CRE}
                 alt=''
                 width={240}
                 height={240}
@@ -218,7 +224,7 @@ function Projects() {
             <a href='https://adnan-weather-app.vercel.app/'>
               <img
                 className='rounded-t-lg w-full h-52 object-fill'
-                src='./src/assets/weather-app.png'
+                src={weatherApp}
                 alt=''
                 width={240}
                 height={240}
@@ -279,7 +285,7 @@ function Projects() {
             <a href='https://adnan-todo-app.vercel.app/'>
               <img
                 className='rounded-t-lg w-full h-52 object-fill'
-                src='./src/assets/todo-app.png'
+                src={todoApp}
                 alt=''
                 width={240}
                 height={240}
@@ -340,7 +346,7 @@ function Projects() {
             <a href='https://privfi.vercel.app/'>
               <img
                 className='rounded-t-lg w-full h-52 object-fill'
-                src='./src/assets/privfi.png'
+                src={privFi}
                 alt=''
                 width={240}
                 height={240}
