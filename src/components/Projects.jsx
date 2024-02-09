@@ -35,7 +35,7 @@ function Projects() {
             <a href='https://adnan-rahmanpoor.vercel.app' target='_blank'>
               <img
                 className='rounded-t-lg w-full h-52 object-fill'
-                src='./assets/Adnan-s-Portfolio.png'
+                src='./Adnan-s-Portfolio.png'
                 alt=''
                 width={240}
                 height={240}
