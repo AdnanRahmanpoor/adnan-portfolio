@@ -1,7 +1,7 @@
 import { Typewriter, Cursor } from 'react-simple-typewriter';
-import Transition from './transition'
+import Transition from './transition';
 import { Link } from 'react-router-dom';
-import heroImage from '../assets/mainIconsdark.svg'
+import heroImage from '../assets/mainIconsdark.svg';
 
 function Home() {
   const text = Typewriter({
@@ -41,7 +41,7 @@ function Home() {
           </div>
           <div className='flex flex-row w-auto h-auto mt-10 self-start'>
             <Link
-              to={'/About'}
+              to={'/about'}
               className='relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md'
             >
               <span className='w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute'></span>
@@ -50,12 +50,21 @@ function Home() {
               </span>
             </Link>
             <Link
-              to={'/Projects'}
+              to={'/projects'}
               className='relative mx-5 p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md'
             >
               <span className='w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute'></span>
               <span className='relative px-6 py-3 transition-all ease-out bg-gray-900 rounded-md group-hover:bg-opacity-0 duration-400'>
                 <span className='relative text-white'>Projects</span>
+              </span>
+            </Link>
+            <Link
+              to={'/contact'}
+              className='relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md'
+            >
+              <span className='w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute'></span>
+              <span className='relative px-6 py-3 transition-all ease-out bg-gray-900 rounded-md group-hover:bg-opacity-0 duration-400'>
+                <span className='relative text-white'>Contact</span>
               </span>
             </Link>
           </div>

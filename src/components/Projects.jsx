@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom';
 import Transition from './transition';
-import adnanPortfolio from '../assets/Adnan-s-Portfolio.png'
-import adnanBlog from '../assets/AdnanRp.png'
-import CRE from '../assets/CRE-BT5.png'
-import weatherApp from '../assets/weather-app.png'
-import todoApp from '../assets/todo-app.png'
-import privFi from '../assets/privfi.png'
+import adnanPortfolio from '../assets/Adnan-s-Portfolio.png';
+import adnanBlog from '../assets/AdnanRp.png';
+import CRE from '../assets/CRE-BT5.png';
+import weatherApp from '../assets/weather-app.png';
+import todoApp from '../assets/todo-app.png';
+import privFi from '../assets/privfi.png';
 
 function Projects() {
   return (
@@ -21,12 +21,21 @@ function Projects() {
           </span>
         </Link>
         <Link
-          to={'/About'}
-          className='relative ml-5 p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md'
+          to={'/about'}
+          className='relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md'
         >
           <span className='w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute'></span>
           <span className='relative px-6 py-3 transition-all ease-out bg-gray-900 rounded-md group-hover:bg-opacity-0 duration-400'>
             <span className='relative text-white'>About</span>
+          </span>
+        </Link>
+        <Link
+          to={'/contact'}
+          className='relative ml-5 p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md'
+        >
+          <span className='w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute'></span>
+          <span className='relative px-6 py-3 transition-all ease-out bg-gray-900 rounded-md group-hover:bg-opacity-0 duration-400'>
+            <span className='relative text-white'>Contact</span>
           </span>
         </Link>
       </div>
@@ -54,8 +63,8 @@ function Projects() {
                 </h5>
               </a>
               <p className='mb-3 font-normal text-gray-700 dark:text-gray-400'>
-                A React + TailwindCSS and Framer Motion for page transition, portfolio website to showcase information
-                and projects.
+                A React + TailwindCSS and Framer Motion for page transition,
+                portfolio website to showcase information and projects.
               </p>
               <div className='flex flex-row mx-auto justify-between content-between pt-2'>
                 <a
