@@ -2,8 +2,8 @@ import { Typewriter, Cursor } from 'react-simple-typewriter';
 import Transition from './transition';
 import { Link } from 'react-router-dom';
 import heroImage from '../assets/mainIconsdark.svg';
-import CustomCursor from './CustomCursor';
-import '../App.css';
+// import CustomCursor from './CustomCursor';
+// import '../App.css';
 
 function Home() {
   const text = Typewriter({
@@ -26,7 +26,7 @@ function Home() {
 
   return (
     <section className='flex flex-col lg:flex-row landscape:flex-row  w-full h-screen lg:mx-auto max-w-7xl'>
-      <CustomCursor />
+      {/* <CustomCursor /> */}
       <div className='flex flex-row items-center justify-center mx-auto md:w-full  lg:pl-40 pt-20 lg:pt-0 landscape:pt-0'>
         <div className='h-full w-full flex flex-col landscape:flex-col justify-center m-auto text-start'>
           <h1 className='text-gray-500 text-3xl'>Welcome</h1>
